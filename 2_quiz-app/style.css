@@ -6,7 +6,7 @@
 
 body {
   background-color: #eec0c6;
-  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 100%);
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
@@ -15,10 +15,48 @@ body {
   min-height: 100vh;
 }
 
+h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+li {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
 .quiz-container {
   background-color: #fff;
   width: 400px;
   height: 300px;
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 5px rgba(100, 100, 100, 0.1);
   border-radius: 10px;
+  max-width: 100%;
+}
+
+.quiz-header {
+  padding: 2rem;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button {
+  background-color: purple;
+  border: none;
+  display: block;
+  color: white;
+  font-family: inherit;
+  width: 100%;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+button:hover {
+  background-color: rgb(167, 123, 167);
+  cursor: pointer;
 }
