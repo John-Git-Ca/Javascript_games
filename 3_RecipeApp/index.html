@@ -6,9 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe App</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <script src="./script.js" defer></script>
 </head>
 <body>
-    <h1>Hello there</h1>
+    <div class="mobile-container">
+        <header>
+            <input type="text">
+            <button id="search"><i class="uil uil-search"></i></button>
+        </header>
+        <h3>Favorita Meals</h3>
+        <div class="fav-container">
+            <ul class="fav-meals">
+                <li><img src="https://www.themealdb.com/images/ingredients/Lime.png" alt=""><span>Lime</span></li>
+                <li><img src="https://www.themealdb.com/images/media/meals/llcbn01574260722.jpg/preview" alt=""><span>Carbonara</span></li>
+                <li><img src="https://www.themealdb.com//images//media//meals//adxcbq1619787919.jpg" alt=""><span>cake</span></li>
+                <li><img src="https://www.themealdb.com//images//media//meals//adxcbq1619787919.jpg" alt=""><span>cake</span></li>
+                <li><img src="https://www.themealdb.com//images//media//meals//adxcbq1619787919.jpg" alt=""><span>cake</span></li>
+                <li><img src="https://www.themealdb.com//images//media//meals//adxcbq1619787919.jpg" alt=""><span>cake</span></li>
+            </ul>
+        </div>
+        <div class="meals">
+            <div class="meal">
+                <div class="meal-header">
+                    <span class="random">Random Recipe</span>
+                    <img src="https://www.themealdb.com//images//media//meals//swttys1511385853.jpg" alt="">
+                </div>
+                <div class="meal-body">
+                    <h4>Veggie Veggies</h4>
+                    <button class="fav-btn">
+                        <i class="uil uil-heart"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
